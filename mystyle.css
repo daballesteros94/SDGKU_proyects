@@ -42,6 +42,12 @@ img {
     margin-right: auto;
 }
 
+.container2{
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*Headers*/
 .header-flex{
     display: flex;
@@ -54,6 +60,21 @@ img {
     background-size: cover;
     height: 300px;
     color: white;
+    text-align: center;
+}
+.contact-header{
+    background-position: center center;
+    background-size: cover;
+    height: 100px;
+    color: white;
+    background-color: black;
+}
+.contact-footer{
+    background-position: center center;
+    background-size: cover;
+    height: 100px;
+    color: white;
+    background-color: black;
     text-align: center;
 }
 .menu a{
@@ -73,4 +94,23 @@ img {
 }
 .courses-container{
     width: 40%;
+}
+.parragrph-highligh{
+    font-weight: bold;
+    font-size: 28px;
+}
+.input_textbox{
+    width: 50%;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.textarea {
+  width: 50%;
+  height: 50px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  
 }
