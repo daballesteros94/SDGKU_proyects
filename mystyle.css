@@ -1,0 +1,76 @@
+/*Global*/
+body{
+    font-family: arial;
+}
+h1{
+    text-align: center;
+}
+p{
+    line-height: 1.5;
+}
+img {
+    max-width: 100%;
+}
+/*Utilities*/
+.btn-black{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.btn-brown{
+    display: inline-block;
+    background-color: brown;
+    color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.container{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Headers*/
+.header-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.primary-header {
+    background-image: url(coffee-images-main/banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    color: white;
+    text-align: center;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+/*MAIN*/
+
+.main-flex{
+    display: flex;
+    flex-direction: row;
+}
+.blog-container{
+    width: 60%;
+    margin-right: 10px;
+}
+.courses-container{
+    width: 40%;
+}
