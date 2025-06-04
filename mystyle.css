@@ -104,13 +104,15 @@ img {
     margin: 8px 0;
     box-sizing: border-box;
 }
-.textarea {
-  width: 50%;
-  height: 50px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  background-color: #f8f8f8;
-  resize: none;
-  
+.form-container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+}
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
 }

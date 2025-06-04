@@ -19,7 +19,7 @@
     </header>
 
      <main class="container2">
-        <section>
+        <section class="image-section">
             <h2>Contact</h2>
             <div>
                 <img src="./coffee-images-main/contact.jpg" alt="error here">
@@ -27,15 +27,25 @@
         </section>
 
         <section>
-            <form>
-                <label for="name">Name: </label>
-                <input class="input_textbox" type="text" id="name" name="name" value=""><br>
-                <label for="email">Email: </label>
-                <input class="input_textbox" type="text" id="email" name="email" value="Add your email"><br>
-                <label for="message">Message: </label>
-                <input class="textarea" type="text" id="message" name="message" value="Add your comments"><br><br>
-                <input class="btn-black" type="submit" value="Send">
-            </form>
+            <div class="form-container container2">
+                <form>
+                    <div class="form-row">
+                        <label for="name">Name: </label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div class="form-row">    
+                        <label for="email">Email: </label>
+                        <input type="text" id="email" name="email">
+                    </div>
+                    <div class="form-row">    
+                        <label for="message">Message: </label>
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+                    <div class="form-row">    
+                        <input class="btn-black" type="submit" value="Send">
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
     
