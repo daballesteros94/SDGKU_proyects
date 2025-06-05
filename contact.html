@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="./mystyle.css">
     </head>
 <body>
-    <header class="contact-header">
+    <header class="secondary-header">
         <div class="header-flex">
             <h1>Coffe Blog</h1>
             <nav class="menu"> 
@@ -18,35 +18,32 @@
         </div>
     </header>
 
-     <main class="container2">
-        <section class="image-section">
-            <h2>Contact</h2>
+ <main class="container">
+        <h2>Contact</h2>
+        <div class="contact-container">
             <div>
-                <img src="./coffee-images-main/contact.jpg" alt="error here">
+                <img src="./coffee-images-main/contact.jpg" alt="cups">
             </div>
-        </section>
-
-        <section>
-            <div class="form-container container2">
-                <form>
-                    <div class="form-row">
-                        <label for="name">Name: </label>
-                        <input type="text" id="name" name="name">
+            <div class="form-container">
+                <form class="container">
+                    <div>
+                        <label>Name:</label>
+                        <input type="text">
                     </div>
-                    <div class="form-row">    
-                        <label for="email">Email: </label>
-                        <input type="text" id="email" name="email">
+                    <div>
+                        <label>Email:</label>
+                        <input type="email">
                     </div>
-                    <div class="form-row">    
-                        <label for="message">Message: </label>
-                        <textarea id="message" name="message"></textarea>
+                    <div>
+                        <label>Message:</label>
+                        <textarea></textarea>
                     </div>
-                    <div class="form-row">    
-                        <input class="btn-black" type="submit" value="Send">
+                    <div>
+                        <button class="btn-black">Send</button>
                     </div>
                 </form>
             </div>
-        </section>
+        </div>
     </main>
     
    <footer class="contact-footer">

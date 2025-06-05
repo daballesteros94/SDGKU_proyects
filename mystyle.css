@@ -1,4 +1,4 @@
-/*Global*/
+/*global*/
 body{
     font-family: arial;
 }
@@ -8,16 +8,16 @@ h1{
 p{
     line-height: 1.5;
 }
-img {
+img{
     max-width: 100%;
 }
-/*Utilities*/
+/*utilities*/
 .btn-black{
     display: inline-block;
     background-color: black;
-    color: white;
-    margin-bottom: 20px;
-    padding: 10px;
+    color:white;
+    padding:10px;
+    margin-bottom:20px;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 12px;
@@ -27,9 +27,9 @@ img {
 .btn-brown{
     display: inline-block;
     background-color: brown;
-    color: white;
-    margin-bottom: 20px;
-    padding: 10px;
+    color:white;
+    padding:10px;
+    margin-bottom:20px;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 12px;
@@ -37,56 +37,41 @@ img {
 }
 
 .container{
-    width: 60%;
+    width:70%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.container2{
-    width: 68%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/*Headers*/
+/*header*/
 .header-flex{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .primary-header {
-    background-image: url(coffee-images-main/banner.jpg);
+    background-image: url(img/banner.jpg);
     background-position: center center;
     background-size: cover;
     height: 300px;
     color: white;
     text-align: center;
 }
-.contact-header{
-    background-position: center center;
-    background-size: cover;
-    height: 100px;
-    color: white;
+.secondary-header{
     background-color: black;
-}
-.contact-footer{
-    background-position: center center;
-    background-size: cover;
     height: 100px;
-    color: white;
-    background-color: black;
-    text-align: center;
+    color:white;
 }
 .menu a{
-    color: white;
+    color:white;
     text-decoration: none;
     margin-right: 10px;
 }
-/*MAIN*/
+/*main*/
 
 .main-flex{
     display: flex;
     flex-direction: row;
+    
 }
 .blog-container{
     width: 60%;
@@ -95,24 +80,41 @@ img {
 .courses-container{
     width: 40%;
 }
-.parragrph-highligh{
-    font-weight: bold;
-    font-size: 28px;
-}
-.input_textbox{
-    width: 50%;
-    margin: 8px 0;
-    box-sizing: border-box;
+
+/*contact*/
+.contact-container{
+    display: flex;
+    flex-direction: column;
 }
 .form-container{
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 600px;
+    margin-top: -80px;
 }
-.form-row {
+form{
+    background-color: white;
+    padding: 30px;
+}
+
+input,textarea{
+    width:60%;
+    border:1px solid gray;
+    padding:5px;
+    border-radius: 5px;
+}
+label{
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+form div{
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+}
+.contact-footer{
+    background-position: center center;
+    background-size: cover;
+    height: 100px;
+    color: white;
+    background-color: black;
+    text-align: center;
 }
